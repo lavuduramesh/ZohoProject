@@ -1,0 +1,41 @@
+.center h1{
+  text-align: center;
+  padding: 0 0 0 0;
+  border-bottom: 0 solid silver;
+}
+.center h4{
+  text-align: center;
+  padding: 0 0 0 0;
+  border-bottom: 0 solid silver;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+button {
+  background-color: lightseagreen;   
+  width: 100%;
+  color:black;
+  padding: 14px 20px;   
+  margin: 8px 0px;   
+  border: none;   
+  cursor: pointer;
+}
+input[type=text], input[type=password] {
+  width: 100%;   
+  margin: 8px 0;  
+  padding: 12px 20px;   
+  display: inline-block;   
+  border: 3px solid green;   
+  box-sizing: border-box;
+}
+.container {
+  padding: 40px;
+  background-color: lightblue;
+}
+span.psw {
+  float:right;
+  padding-top: 16px;
+}  
